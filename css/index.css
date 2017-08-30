@@ -1,0 +1,192 @@
+body input,
+body select,
+body{font-family: 'microsoft yahei'; font-size:.24rem; color: #70767c;}
+body{-webkit-text-size-adjust: none; background: #1b1c22;}
+*{ margin:0; padding:0;}
+html { color:#333;}
+ul,ol,li{ list-style:none;}
+a{ text-decoration:none;color:#70767c;} 
+i, em{ font-style:normal;}
+img{ border:none;vertical-align:top;}
+input{border:none; outline:none;}
+select:focus{ outline: none;}
+textarea{ outline:none; resize:none;}
+.clearfix:after{content:""; display:block; clear:both;}
+.clearfix{zoom:1;} 
+
+
+/*新闻列表*/
+.select_title li{
+    float: left;
+    width: 1.2rem;
+    line-height: 0.9rem;
+    color: #858585;
+    font-size: 0.27rem;
+    text-align: center;
+    margin-top: -0.1rem;
+}
+
+.select{
+    position: absolute;
+    top: 2.85rem;
+    width: 100%;
+}
+.select_title{
+    padding: 0  0.2rem;
+     border-top: 1px solid #373535;
+    border-bottom: 1px solid #373535;
+    
+}
+.selected{
+    color: #a90915 !important;
+}
+.select_txt{
+    padding: 0rem .45rem;
+    margin-bottom: 1.5rem;
+    /*min-height: 530px;*/
+}
+.select_txt a{
+        width: 5.7rem;
+    height: .6rem;
+    display: block;
+    margin: 0 auto;
+    color: #b5b5b5;
+    font-size: .22rem;
+}
+.select_txt i{
+    width: 0.5rem;
+    height: .7rem;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    line-height: .6rem;
+    text-align: center;
+}
+.select_txt i em{
+    width: 100%;
+    color: #b5b5b5;
+    font-size: 10px;
+    position: absolute;
+    top: .25rem;
+    right: 0;
+}
+.select_txt a span{
+    width: 4.9rem;
+    height: 0.55rem;
+    border-bottom: .01rem solid #373535;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: .55rem;
+    text-indent: .1rem;
+    color: #b5b5b5;
+}
+.select_content{
+ color: #b5b5b5;
+}
+.select li a{
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /*overflow: hidden;*/
+    /*line-height: 0.7rem;*/
+    /*height: 0.7rem;*/
+    font-size: 0.18rem;
+    color: #b5b5b5;
+}
+.more{
+    color: #8f8a7d;
+    width: 2.6rem;
+    height: 0.7rem;
+    text-align: center;
+    line-height: 0.7rem;
+    border: 1px solid #8f8a7d;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+}
+/*底部导航*/
+.footer{
+  
+    line-height:0.89rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 2222;
+    width: 6.4rem;
+    left: 50%;
+    transform: translate(-50%,0);
+    background: #0a0a0a;
+    height: 0.89rem;
+    color: #746e6e;
+}
+.footer ul{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: .88rem;
+    line-height: .88rem;
+}
+.footer ul li{
+    text-align: center;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: .22rem;
+}
+.select_back{
+    background-position: 0rem -3.65rem;
+    color: #d4c8a0;
+}
+.hidden {
+    display: none !important;
+}
+/*详情标题*/
+.detail_title{
+    width: 100%;
+    position: absolute;
+    top: 2.85rem;
+    margin-bottom: 10em;
+}
+.detail_title p:nth-child(1){
+    color: #9a9a9a;
+     font-size: 0.23rem;
+    height: 0.67rem;
+    line-height: 0.67rem;
+    font-weight: bold;
+    border-bottom: 1px solid #373535;
+    border-top: 1px solid #373535;
+     text-align: center;
+}
+.detail_title p:nth-child(2){
+    color: #7e7e7e;
+    font-size: 0.18rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-weight: bold;
+     text-align: center;
+}
+.detail_title p:nth-child(3){
+    color: #8f8a7d;
+    font-size: 0.18rem;
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    /*font-weight: bold;*/
+}
+/*搜索结果*/
+.search_consult{
+    border-top: 1px solid #373535;
+    border-bottom: 1px solid #373535;
+    line-height: 0.7rem;
+    height: 0.7rem;
+    text-align: center;
+    width:100%;
+    color: #8f8a7d;
+    font-size: 0.23rem;
+    font-weight: bold;
+}
